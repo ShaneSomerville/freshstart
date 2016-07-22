@@ -1,0 +1,206 @@
+/*GENERAL*/
+body {
+    background-image: url(images/planks_background.jpg);
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    font-family: "Special Elite";
+}
+.container {
+    width:100%;
+    height:100%;
+}
+.page {
+    width: 60%;
+    height: 90%;
+    position: fixed;
+
+}
+
+/*PAGE 1 CONTENT*/
+.page_1 {
+    z-index: 30;
+    top: 70%;
+    left: 55%;
+    height:759px;
+    width:600px;
+    position: fixed;
+    background-image: url(images/new_passport12.png);
+    background-size: cover;
+    font-family: Verdana;
+    font-weight: bold;
+    border: 1px solid black;
+}
+#photo {
+    position: relative;
+    width: 28%;
+    height: 30%;
+    left: 3%;
+    top: 67%;
+}
+#lName {
+    width: 23%;
+    height: 3%;
+    left: 34%;
+    top: 37%;
+    position: relative;
+}
+#fName {
+    width: 30%;
+    height: 3%;
+    left: 34%;
+    top: 38%;
+    position: relative;
+}
+#place_of_issue {
+    width: 23%;
+    height: 3%;
+    left: 34%;
+    top: 48%;
+    position: relative;
+}
+#gender {
+    width: 23%;
+    height: 3%;
+    left: 76%;
+    top: 45%;
+    position: relative;
+}
+/*PAGE 2 CONTENT*/
+.page_2 {
+    z-index: 10;
+    top: 73%;
+    left: 22%;
+    background-color: #D9C6A8;
+    border: 1px solid black;
+}
+
+.space_between {
+    font-family: "Special Elite";
+    font-size: 1.25em;
+    padding: 0 50px;
+    line-height: 160%;
+}
+.sepia {
+    -webkit-filter: sepia(90%);
+}
+.new-story-heading{
+
+}
+
+.new-story-para {
+    text-indent: 3em; padding: 3em;
+}
+/*
+*   Page 3 content
+*/
+.page_3 {
+    background-color:#D9C6A8;
+    top: 78%;
+    z-index: 20;
+    left: 18%;
+    position:fixed;
+    border: 1px solid black;
+}
+
+.polaroid_1 {
+    background-image: url(images/clip1.png);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    width: 25vw;
+    height: 43vh;
+}
+
+.car_img {
+    position: relative;
+    top: 7vh;
+    left: 14%;
+    float: left;
+    width: 19vw;
+    height: 27vh;
+    transform: rotate(14.5deg);
+}
+
+.polaroid_1:hover {
+    transition: all 1s ease;
+    transform: rotate(-14.5deg) scale(1.25);
+}
+
+
+.polaroid_2 {
+    background-image: url(images/clip2.png);
+    background-repeat: no-repeat;
+    background-position: top left 20%;
+    background-size: 95%;
+    position: relative;
+    float: left;
+    width: 25vw;
+    height: 43vh;
+}
+
+.house_img {
+    position: relative;
+    float: right;
+    top: 6.5vh;
+    right: 4vw;
+    width: 18vw;
+    height: 28vh;
+    transform: rotate(-14deg);
+}
+.polaroid_2:hover {
+    transition: all 1s ease;
+    transform: rotate(14deg) scale(1.25);
+}
+
+.polaroid_3 {
+    background-image: url(images/clip3.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 95%;
+    position: relative;
+    left: 18%;
+    top: 35%;
+    width: 30vw;
+    height: 61vh;
+}
+
+#map {
+    width: 71%;
+    height: 60%;
+    top: -50%;
+    left: 16%;
+}
+
+.polaroid_3:hover {
+    transition: all 1s ease;
+    transform: scale(1.25);
+}
+/*FOLDER PICS*/
+.manila_back {
+    width: 80%;
+    height: auto;
+    z-index: 1;
+    margin-left: 10%;
+    position: fixed;
+    bottom: 0;
+}
+.manila_front {
+    width: 80%;
+    height: auto;
+    z-index: 100;
+    margin-left: 10%;
+    position: fixed;
+    bottom: 0;
+}
+.up {
+    transition: all .5s;
+}
+
+.slide {
+    top: 7%;
+}
+
